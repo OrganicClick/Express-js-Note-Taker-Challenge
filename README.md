@@ -91,6 +91,8 @@ Node.js
 
 Express.js
 
+Heroku
+
 Version Control: Git
 
 Additional Tools: GitHub
