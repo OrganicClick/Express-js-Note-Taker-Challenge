@@ -100,6 +100,8 @@ Additional Tools: GitHub
 Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp
  - Project guidelines, initial screenshots, reference mock-up, and accepted terms of submission provided by GWU Coding Boot Camp
+ - Tutorial/documentation on utilizing Express.js (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+ - Express.js routing documentation (https://expressjs.com/en/guide/routing.html)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
