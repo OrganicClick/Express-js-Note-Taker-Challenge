@@ -15,7 +15,7 @@
 
 ## Description
 
-This project is a logo maker application that utilizes object-oriented programming principles to generate SVG (Scalable Vector Graphics) logos. The application prompts the user for input regarding text, shapes, colors, and other design elements to create customized SVG logos. By leveraging object-oriented design, the application provides a flexible and scalable solution for logo creation.
+The Note Taker application is designed to help small business owners organize their thoughts and tasks by allowing them to write and save notes. The application utilizes an Express.js back end to store notes with unique IDs in a JSON file. Users can easily create, view, and delete notes using the user-friendly interface.
 
 ## User Story
 AS A small business owner
