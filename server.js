@@ -1,6 +1,6 @@
 const express = require('express');
-const apiRoutes = require('./routes/apiRoutes'); // Importing API routes
-const htmlRoutes = require('./routes/htmlRoutes'); // Importing HTML routes
+const apiRoutes = require('./Develop/routes/apiRoutes'); // Importing API routes
+const htmlRoutes = require('./Develop/routes/htmlRoutes'); // Importing HTML routes
 
 const app = express();
 const PORT = process.env.PORT || 3001; // Setting up the port to listen on, defaulting to 3001 if not provided
