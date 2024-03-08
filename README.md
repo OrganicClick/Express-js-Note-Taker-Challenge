@@ -52,14 +52,19 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Usage
 
-1. Run the application from the command line:
-   - node app.js
+1. Start the application by running:
 
-2. Follow the prompts to customize your SVG logo with text, shapes, colors, and other design elements.
 
-3. Once all inputs are provided, the application will generate an SVG file representing your logo.
+   - node server.js
 
-4. Open the generated SVG file in a web browser to view your customized logo.
+
+2. Open your web browser and go to:
+
+
+   - http://localhost:3000
+
+
+3. You can now create, view, and delete notes using the Note Taker application.
 
 
 ## Contributing
