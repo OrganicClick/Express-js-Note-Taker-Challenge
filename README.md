@@ -40,11 +40,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Installation
 
 1. Clone the repository to your local machine using the following command:
-   - git clone https://github.com/your-username/svg-logo-maker.git
+   - git clone https://github.com/your-username/note-taker.git
 
 
 2. Navigate to the project directory:
-   - cd svg-logo-maker
+   - cd note-taker
 
 
 3. Install the necessary dependencies:
