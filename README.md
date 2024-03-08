@@ -76,15 +76,15 @@ This challenge is provided under the MIT License. See the [LICENSE](LICENSE) fil
 ## Link to Video Walkthrough
 
 ## Technologies Used
+HTML
+
+CSS
+
 JavaScript
 
-Object-oriented Programming
+Node.js
 
-Jest (For running the unit tests)
-
-Inquirer (For collecting input from the user)
-
-SVG (Scalable Vector Graphics)
+Express.js
 
 Version Control: Git
 
