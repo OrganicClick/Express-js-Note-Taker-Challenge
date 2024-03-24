@@ -4,7 +4,7 @@ const router = require('express').Router();
 
 // Route to serve the index.html file
 router.get('/', (req, res) => {
-  const indexPath = path.join(__dirname, 'Develop/public/index.html');
+  const indexPath = path.join(__dirname, '../public/index.html');
   console.log(`Attempting to send ${indexPath}`);
   res.sendFile(indexPath, (err) => {
     if (err) {
