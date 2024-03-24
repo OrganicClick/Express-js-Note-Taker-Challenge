@@ -30,7 +30,7 @@ router.get('/notes', (req, res) => {
 
 // Serve JavaScript files
 router.get('/assets/js/index.js', (req, res) => {
-  const indexPath = path.join(__dirname, '../../public/assets/js/index.js'); // Correcting the path to match the directory structure
+  const indexPath = path.join(__dirname, '../public/assets/js/index.js'); // Correcting the path to match the directory structure
   console.log(`Attempting to send ${indexPath}`);
   res.sendFile(indexPath, {
     headers: {
