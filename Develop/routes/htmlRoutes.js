@@ -1,8 +1,7 @@
 const path = require('path');
+const express = require('express');
+const router = express.Router();
 
-const router = require('express').Router();
-
-// Route to serve the index.html file
 router.get('/', (req, res) => {
   const indexPath = path.join(__dirname, '../public/index.html');
   console.log(`Attempting to send ${indexPath}`);
@@ -16,7 +15,6 @@ router.get('/', (req, res) => {
   });
 });
 
-// Route to serve the notes.html file
 router.get('/notes', (req, res) => {
   const notesPath = path.join(__dirname, '../public/notes.html');
   console.log(`Attempting to send ${notesPath}`);
@@ -26,6 +24,24 @@ router.get('/notes', (req, res) => {
       res.status(500).send('Error sending notes.html');
     } else {
       console.log(`Successfully sent ${notesPath}`);
+    }
+  });
+});
+
+// Serve JavaScript files
+router.get('/assets/js/index.js', (req, res) => {
+  const indexPath = path.join(__dirname, '../../public/assets/js/index.js'); // Correcting the path to match the directory structure
+  console.log(`Attempting to send ${indexPath}`);
+  res.sendFile(indexPath, {
+    headers: {
+      'Content-Type': 'application/javascript' // Set the Content-Type header to 'application/javascript'
+    }
+  }, (err) => {
+    if (err) {
+      console.error(`Error sending ${indexPath}:`, err);
+      res.status(500).send('Error sending index.js');
+    } else {
+      console.log(`Successfully sent ${indexPath}`);
     }
   });
 });
