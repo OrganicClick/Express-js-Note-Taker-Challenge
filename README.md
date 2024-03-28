@@ -80,6 +80,8 @@ This challenge is provided under the MIT License. See the [LICENSE](LICENSE) fil
 
 ## Screenshot
 
+
+
 ## Technologies Used
 HTML
 
