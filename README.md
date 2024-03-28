@@ -8,7 +8,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Link to Video Walkthrough](#link-to-video-walkthrough)
+- [Screenshot](#screenshot)
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
 - [Contact](#contact)
@@ -78,7 +78,7 @@ If you have suggestions or contributions to add, please follow the guidelines li
 ## License
 This challenge is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Link to Video Walkthrough
+## Screenshot
 
 ## Technologies Used
 HTML
@@ -104,6 +104,7 @@ Development was assisted by the following resources:
  - Project guidelines, initial screenshots, reference mock-up, and accepted terms of submission provided by GWU Coding Boot Camp
  - Tutorial/documentation on utilizing Express.js (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
  - Express.js routing documentation (https://expressjs.com/en/guide/routing.html)
+ - Wesley Clements (Tutor with GWU Coding Boot Camp)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
