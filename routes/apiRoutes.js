@@ -54,7 +54,8 @@ router.delete('/notes/:id', (req, res) => {
         res.status(500).json({ error: 'Error writing to the database' });
         return;
       }
-
+      
+      // Remove the note at the found index
       res.send("Note Deleted!");
     });
   });
