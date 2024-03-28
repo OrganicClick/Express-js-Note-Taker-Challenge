@@ -80,7 +80,7 @@ This challenge is provided under the MIT License. See the [LICENSE](LICENSE) fil
 
 ## Screenshot
 
-
+![Screenshot of Application](public/assets/img/Express-JS-Note-Taker-Screenshot.png)
 
 ## Technologies Used
 HTML
